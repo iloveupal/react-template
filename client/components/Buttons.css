@@ -1,0 +1,43 @@
+.line {
+    width: calc(100% - 30px);
+    min-height: 70px;
+    padding: 5px;
+    float: left;
+    position: relative;
+}
+
+.controller {
+    min-width: 350px;
+    min-height: 75px;
+    border: 2px solid gray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.button {
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.green {
+    color: white;
+    background: #67bb83;
+}
+
+.gray {
+    color: black;
+    background: #e6e7ec;
+}

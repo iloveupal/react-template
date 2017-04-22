@@ -1,0 +1,49 @@
+.container {
+
+    height: calc(100vh - 95px);
+    background: white;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.line {
+    width: 95%;
+    margin-left: 2%;
+    min-height: 25px;
+    padding: 5px;
+    float:left;
+}
+
+.message {
+    min-width: 100px;
+    min-height: 18px;
+    line-height: 18px;
+    border-radius: 10px;
+    max-width: 250px;
+    padding: 10px;
+    font-family: Helvetica-Neue, sans-serif;
+    position: relative;
+}
+
+.out {
+    background: #e6e7ec;
+    float: left;
+}
+
+.in {
+    background: #67bb83;
+    float: right;
+    color: white;
+}
+
+.tailIn {
+    position: absolute;
+    bottom: 5px;
+    right: -20px;
+}
+
+.tailOut {
+    position: absolute;
+    top: 5px;
+    left: -20px;
+}
